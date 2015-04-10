@@ -29,8 +29,26 @@
   </head>
   <body>
       
+
+    <!-- simple checkout form example -->  
+    <div class="container">
+        <h2>Simple form example</h2>
+        <p>Purchase a sample of <i>Tyrannosaurus Rex</i> found in an ember-enclosed mosquitoe.</p>
+    </div>
+      
+    <form action="/charge" method="POST">
+      <script
+        src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+        data-key="pk_test_3reGcjMM7uhF5E4Ksio02ME8"
+        data-image="/img/documentation/checkout/marketplace.png"
+        data-name="Demo Site"
+        data-description="2 widgets"
+        data-amount="2000">
+      </script>
+    </form>      
+
     <!-- custom button example -->  
-    <div class="content">
+    <div class="container">
         <h2>Custom button example</h2>
         <p>Purchase a sample of <i>Tyrannosaurus Rex</i> found in an ember-enclosed mosquitoe.</p>
     </div>
